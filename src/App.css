@@ -1,3 +1,23 @@
 .App {
   text-align: center;
+
+}
+.header {
+  text-align: center;
+  color: #FFFFFF !important;
+  font-family: 'Rock Salt', cursive;
+  font-size: 70px;
+
+}
+.jumbotron {
+  background-color: #6FE7F0 !important;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New, Courier, monospace";
+  background: linear-gradient(90deg, rgba(130,168,221,1) 11%, rgba(59,58,180,1) 36%, rgba(48,63,206,1) 41%, rgba(29,103,253,1) 50%, rgba(69,191,252,1) 100%);
+
 }
