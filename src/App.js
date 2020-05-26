@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Particles from 'react-particles-js';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Toast from 'react-bootstrap/Toast';
 import Container from 'react-bootstrap/Container';
@@ -7,13 +7,27 @@ import Button from 'react-bootstrap/Button';
 
 import './App.css';
 
+const particlesOptions = {
+     particles: {
+     number: {
+      value: 150,
+      density: {
+      enable: true,
+      value_area: 900
+      }
+    }
+  }
+}
+
 const QueenToast = ({ children, other }) => {
   const [show, toggleShow] = useState(true);
 
   return (
     <>
+    <Particles className='particles' params={particlesOptions}/>
       {!show && <Button onClick={() => toggleShow(true)}>About us</Button>}
       <Toast show={show} onClose={() => toggleShow(false)}>
+      <Particles className='particles' params={particlesOptions}/>
         <Toast.Header>
           <strong className="mr-auto">You’re a queen and will be successful so never doubt yourself! We all need a chance so let’s help each other and change the world together!!</strong>
         </Toast.Header>

@@ -4,20 +4,28 @@
 }
 .header {
   text-align: center;
-  color: #FFFFFF !important;
+  color: #000000 !important;
   font-family: 'Rock Salt', cursive;
-  font-size: 70px;
+  font-size: 80px;
 
 }
 .jumbotron {
-  background-color: #6FE7F0 !important;
+  background-color: #FFFFFF !important;
 
+}
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Courier New, Courier, monospace";
-  background: linear-gradient(90deg, rgba(130,168,221,1) 11%, rgba(59,58,180,1) 36%, rgba(48,63,206,1) 41%, rgba(29,103,253,1) 50%, rgba(69,191,252,1) 100%);
+  background: linear-gradient(90deg, rgba(28,28,37,1) 11%, rgba(2,13,19,1) 98%);
 
 }
